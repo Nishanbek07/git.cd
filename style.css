@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #040C10;
+}
+
+.navbar ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 40px;
+    font-family: sans-serif;
+}
+
+.navbar ul {
+    margin-left: 50%;
+    margin-top: 30px;
+}
+
+.navbar ul li:first-child {
+    color: #01F28d;
+    text-decoration: underline;
+}
+
+.navbar .calbtn {
+    padding: 8px 12px;
+    background-color: #01F28d;
+    color: #040C10;
+    margin-left: 30px;
+    font-size: 10px;
+    border-radius: 30px;
+    border: 0 solid;
+}
+
+.logo h3 {
+    position: relative;
+    color: #01F28d;
+    font-size: 30px;
+    font-family: serif;
+    top: 60px;
+    left: 13%;
+
+}
+
+.logo .logoimg {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+
+.info-text h1 {
+    color: #fff;
+    margin-top: 13%;
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.info-text span {
+    color: #01F28d;
+}
+
+.info-text p {
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: serif;
+    font-size: 22px;
+}
+
+.info-input {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.info-input input {
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: 0 solid;
+}
+
+.info-input input::placeholder {
+    font-size: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 13px;
+}
+
+.info-input button {
+    padding: 8px 12px;
+    background-color: #01F28d;
+    color: #040C10;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 0 solid;
+}
+
+.rate-star p {
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+.footer ul {
+    color: #fff;
+    margin-top: 20px;
+    list-style-type: none;
+}
+.rate-star i {
+    color: gold;
+}
+
+.footer ul {
+    display: flex;
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    list-style-type: none;
+
+}
+  
+.footer ul li {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 65px;
+    margin-left: 3px;
+    margin-right: 25%;
+}
+
+.footer ul li i {
+    color: #01F28d;
+    font-size: 35px;
+    border: 20px solid #003128;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.footer ul li h3{
+    color: #01F28d;
+}
